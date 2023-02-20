@@ -17,16 +17,15 @@ int main(void)
 	{
 		b = 48;
 		while (b < 58)
-		{	
+		{
 			if (a != b && a < b)
 			{
 				putchar(a);
 				putchar(b);
-				if (a == 56 && b == 57 )
+				if (a == 56 && b == 57)
 				{
 					break;
 				}
-					
 				putchar(',');
 				putchar(' ');
 			}
