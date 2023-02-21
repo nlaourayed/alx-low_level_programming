@@ -1,0 +1,9 @@
+#!/bin/bash
+MSG="ss"
+git add .
+if [ $# -eq 1 ]
+then
+	MSG=$1
+fi
+git commit -m $MSG
+git push
