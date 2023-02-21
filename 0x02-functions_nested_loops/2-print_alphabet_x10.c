@@ -3,11 +3,7 @@
 /**
  * print_alphabet  - Print Alphabet
  * function that prints alphabets
- * print_alphabet_x10  - Print Alphabet 10 tinmes
- * function that prints alphabets 10 times
- * Return: Always 0 (Succsses)
  */
-
 void print_alphabet(void)
 {
 	int a = 97;
@@ -19,6 +15,10 @@ void print_alphabet(void)
 	_putchar('\n');
 }
 
+/**
+ * print_alphabet_x10  - Print Alphabet 10 tinmes
+ * function that prints alphabets 10 times
+ */
 void print_alphabet_x10(void)
 {
 	int i = 0;
