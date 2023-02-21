@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha - checkk if alphabet 
+ * _isalpha - checkk if alphabet
  * check the given char if aplhabet upper/lower case
  * @c: char to be checked
  *
