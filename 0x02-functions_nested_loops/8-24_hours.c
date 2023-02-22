@@ -17,14 +17,8 @@ void jack_bauer(void)
 		mm = 0;
 		while (mm < 60)
 		{
-			if (mm < 10)
-				_putchar(48);
-			_putchar(mm );
-			_putchar(':');
-			if (hh < 10)
-				_putchar(48);
 			_putchar(hh + 48);
-			_putchar('\n');
+			_putchar('/');
 			mm++;
 		}
 		hh++;
