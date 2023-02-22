@@ -20,6 +20,7 @@ void jack_bauer(void)
 			_putchar(hh);
 			_putchar('/');
 			_putchar('0' + hh);
+			_putchar('\n');
 			mm++;
 		}
 		hh++;
