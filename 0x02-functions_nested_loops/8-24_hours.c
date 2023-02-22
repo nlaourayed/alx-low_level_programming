@@ -19,11 +19,11 @@ void jack_bauer(void)
 		{
 			if (mm < 10)
 				_putchar(48);
-			_putchar(mm + 48);
+			_putchar(mm );
 			_putchar(':');
 			if (hh < 10)
 				_putchar(48);
-			_putchar(mm + 48);
+			_putchar(hh + 48);
 			_putchar('\n');
 			mm++;
 		}
