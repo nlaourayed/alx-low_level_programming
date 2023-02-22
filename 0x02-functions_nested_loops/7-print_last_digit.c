@@ -11,5 +11,6 @@ int print_last_digit(int n){
 	int last_digit;
 
 	last_digit = n % 10;
-	return (last_digit * 11);
+	_putchar(n);
+	return (last_digit);
 }
