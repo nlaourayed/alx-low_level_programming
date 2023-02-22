@@ -18,8 +18,8 @@ void jack_bauer(void)
 		while (mm < 2)
 		{
 			_putchar(mm);
-			_putchar('\');
-			_putchar('\');
+			_putchar('/');
+			_putchar('/');
 			_putchar('0' + mm);
 		}
 		hh++;
