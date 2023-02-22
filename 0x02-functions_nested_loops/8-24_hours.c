@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer - Print evrey muinit 
+ * jack_bauer - Print evrey muinit
  * in the day
  */
 void jack_bauer(void)
@@ -24,6 +24,7 @@ void jack_bauer(void)
 			if (hh < 10)
 				_putchar(48);
 			_putchar(mm + 48);
+			_putchar('\n');
 			mm++;
 		}
 		hh++;
