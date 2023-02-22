@@ -17,8 +17,9 @@ void jack_bauer(void)
 		mm = 0;
 		while (mm < 60)
 		{
-			_putchar(hh + 48);
+			_putchar(hh);
 			_putchar('/');
+			_putchar('0' + hh);
 			mm++;
 		}
 		hh++;
