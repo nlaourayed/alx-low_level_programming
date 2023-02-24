@@ -4,10 +4,6 @@
  *
  * Return: Always return 0
  */
-int main(void)
-{
-	print_most_numbers();
-}
 void print_most_numbers(void)
 {
 	int i;
