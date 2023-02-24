@@ -4,6 +4,10 @@
  *
  * Return: Always return 0
  */
+int main(void)
+{
+	print_most_numbers();
+}
 void print_most_numbers(void)
 {
 	int i;
@@ -11,8 +15,13 @@ void print_most_numbers(void)
 	i = 48;
 	while (i <= 57)
 	{
-		if (i != 50 || i != 52)
+		if (i == 52 || i == 50)
+		{
+		}
+		else
+		{
 			_putchar(i);
+		}
 		i++;
 	}
 	_putchar('\n');
