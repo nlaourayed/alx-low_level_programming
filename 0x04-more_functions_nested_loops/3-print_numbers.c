@@ -4,11 +4,6 @@
  *
  * Return: Always return 0
  */
-int main(void)
-{
-	print_numbers();
-	return (0);
-}
 void print_numbers(void)
 {
 	int i;
